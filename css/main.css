@@ -318,6 +318,10 @@ aside .form .form-button{
   
 }
 
+.contact-content p{
+  margin: 0px;
+}
+
 /* =====================
   FAQ Page
   =====================*/
@@ -334,6 +338,14 @@ aside .form .form-button{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
+}
+
+.faq h2{
+  margin-bottom: 40px;
+}
+.faq-content{
+  margin-bottom: 50px;
 }
 
 
