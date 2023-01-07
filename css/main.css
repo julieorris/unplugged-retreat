@@ -88,9 +88,13 @@ textarea {
    ========================================================================== */
 
 
-
+   .content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+  }
 
 /* ----------- Base Header & Footer Styles -------------------*/
+
 
 header, 
 footer {
@@ -100,30 +104,61 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
+
+.header-divider{
+  width: 100%;
+  margin: 10px 0 20px 0;
+  height: 1px;
+}
+
 
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 
+footer {
+  flex-direction: column;
+}
 footer .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer h3,h4 {
+  margin: 20px 0;
+}
+
+footer p{
+  margin: 0;
+}
+
+footer .social{
+  margin: 50px 0;
 }
 
 footer .social-icons p{
@@ -151,6 +186,9 @@ footer .copyright{
 
 /*------------------------ Mobile Styles ----------------------*/
 
+/* --- header ---*/
+
+
 /* ---- Hero Area ---*/
 
 .hero-area {
@@ -174,13 +212,50 @@ aside{
   flex-flow: row wrap;
 }
 
+
+aside h3{
+  margin: 20px 0;
+}
+
+aside p{
+  margin-bottom: 30px;
+}
+
+aside .form h3{
+  margin: 20px 0;
+  
+}
+
+aside .form .form-input{
+  padding: 1em;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+aside .form .form-button{
+  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
 /** features **/
 
 .features {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
 
+.features h2{
+  margin-bottom: 60px;
+}
+
+.features p{
+  margin: 0;
+}
+.features article{
+  width: 62%;
+  margin: 30px 0;
+ 
 }
 
 .features .features-icon{
@@ -188,7 +263,15 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin-bottom: 40px;
 }
+
+.features .features-item-description{
+  display: flex;
+  justify-content: center;
+}
+
+
 
 /**
 .features .features-item-description{
@@ -203,8 +286,18 @@ aside{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  
 }
+
+.reviews h2{
+  margin-bottom: 40px;
+}
+
+.reviews h3{
+  width: 50%;
+  margin: 20px 0;
+}
+
+/* ---- footer styles -----*/
 
 /* =====================
   About Page
