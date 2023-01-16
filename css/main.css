@@ -758,6 +758,9 @@ aside .form h3{
         width: 45%;
       }
 
+      .map figure{
+        padding-bottom: 54%;      
+      }
       .contact-section .content-wrapper h2{
         width: 80%;
       }
@@ -874,7 +877,9 @@ aside .form h3{
     width: 95%;
     font-size: 3em;
   }
-
+  .map figure{
+    padding-bottom: 46.875%;      
+  }
   .contact-content h4{
     font-size: 1.875em;
   }
